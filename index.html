@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Power Fitness</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="styles/fontawesome.min.css"> -->
+  <link rel="stylesheet" href="styles/all.min.css">
+  <script type="text/javascript" src="js/respond.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:rgba(0, 0, 0, 0.4);">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" height="30"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item fw-bold me-4"><a class="nav-link active" href="#main">Home</a></li>
+            <li class="nav-item fw-bold me-4"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item fw-bold me-4"><a class="nav-link" href="#amenities">Amenities</a></li>
+            <li class="nav-item fw-bold me-4"><a class="nav-link" href="#subscriptions">Subscriptions</a></li>
+            <li class="nav-item fw-bold"><a class="nav-link" href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="main d-flex" id="main">
+    <div class="form">
+      <form class="w-100" style="padding: 0 120px;">
+        <h3 class="mb-3 fw-bolder text-center bg-dark p-2 rounded-3">Enquiry Form</h3>
+        <div class="mb-2">
+          <input type="text" class="form-control" style="background-color: rgba(255, 255, 255, 0.7); border: none;"
+            id="exampleInput" aria-describedby="emailHelp" placeholder="Name">
+        </div>
+        <div class="mb-2">
+          <input type="text" class="form-control" style="background-color: rgba(255, 255, 255, 0.7); border: none;"
+            id="exampleInput" placeholder="Email Id">
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control" style="background-color: rgba(255, 255, 255, 0.7); border: none;"
+            id="exampleInput" placeholder="Contact Number">
+        </div>
+
+        <button type="submit" class="btn btn-warning w-100">Enquire</button>
+      </form>
+    </div>
+    <div class="texts d-flex flex-column align-items-center justify-content-center w-50 px-5 text-center">
+      <!-- <img src="img/logo.png" alt="" width="150"> -->
+      <h1 class="fw-bolder text-dark py-3 mb-0">Power Fitness</h1>
+      <h5 class="fw-bolder text-dark mb-0 fst-italic">"Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Voluptas, eveniet."</h5>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="gym-details d-flex flex-column justify-content-center align-items-center"
+      style="padding: 120px 240px 60px 240px;">
+      <img src="img/logo.png" alt="" width="200" style="filter: invert(100%);">
+      <p class="text-center mt-5">"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, odit rerum. Beatae,
+        sapiente reiciendis rem est tempora illum. Quos suscipit consectetur facere sit est vero soluta quis fugiat
+        quod. Maxime, sapiente necessitatibus. Vel, earum."</p>
+    </div>
+    <div class="trainers" style="padding: 0px 240px 120px 240px;">
+      <div id="carouselExampleCaptions" class="carousel slide w-50 m-auto" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card text-center border-0 bg-light">
+              <!-- <div class="card-header">Personal Trainer</div> -->
+              <img src="img/john.png" class="rounded-top" alt="" height="200">
+              <div class="card-body text-center p-5 pt-0">
+                <h5 class="card-title fa-2x my-3 fw-bolder">John Doe</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card text-center border-0 bg-light">
+              <!-- <div class="card-header">Personal Trainer</div> -->
+              <img src="img/jane.png" class="rounded-top" alt="" height="200">
+              <div class="card-body text-center p-5 pt-0">
+                <h5 class="card-title fa-2x my-3 fw-bolder">Jane Doe</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card text-center border-0 bg-light">
+              <!-- <div class="card-header">Personal Trainer</div> -->
+              <img src="img/john.png" class="rounded-top" alt="" height="200" style="filter: invert(100%);">
+              <div class="card-body text-center p-5 pt-0">
+                <h5 class="card-title fa-2x my-3 fw-bolder">Johansson Smith</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev carousel-dark" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next carousel-dark" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="amenities" id="amenities" style="padding: 120px 240px;">
+    <svg viewBox="0 0 1400 50" class="svg-top">
+      <polygon points="0,0 0,50 200,0 1400,50 1400,0 0,0" style="fill:white">
+    </svg>
+    <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div
+            class="card w-75 m-auto bg-transparent border-0 text-white d-flex flex-column align-items-center text-center">
+            <img src="img/weight_training.jpeg" alt="" width="600" height="300" class="rounded-3">
+            <div class="card-body">
+              <h5 class="card-title fa-2x fw-bolder my-3">Weight Training</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content. Lorem ipsum
+                dolor sit, amet consectetur adipisicing elit. Error fugit dicta, ab vero eos eveniet! Id, totam
+                consectetur. Fugiat earum hic impedit odit unde.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            class="card w-75 m-auto bg-transparent border-0 text-white d-flex flex-column align-items-center text-center">
+            <img src="img/Crossfit-Cardio.jpeg" alt="" width="600" height="300" class="rounded-3">
+            <div class="card-body">
+              <h5 class="card-title fa-2x fw-bolder my-3">Cardio & Crossfit</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content. Lorem ipsum
+                dolor sit, amet consectetur adipisicing elit. Error fugit dicta, ab vero eos eveniet! Id, totam
+                consectetur. Fugiat earum hic impedit odit unde.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            class="card w-75 m-auto bg-transparent border-0 text-white d-flex flex-column align-items-center text-center">
+            <img src="img/zumba.jpeg" alt="" width="600" height="300" class="rounded-3">
+            <div class="card-body">
+              <h5 class="card-title fa-2x fw-bolder my-3">Zumba</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content. Lorem ipsum
+                dolor sit, amet consectetur adipisicing elit. Error fugit dicta, ab vero eos eveniet! Id, totam
+                consectetur. Fugiat earum hic impedit odit unde.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <svg viewBox="0 0 1400 50" class="svg-bottom">
+      <polygon points="0,0 1200,50 1400,0 1400,50 0,50 0,0" style="fill:white" ;>
+    </svg>
+  </section>
+
+  <section class="subscriptions" id="subscriptions">
+    <div class="row w-75 m-auto" style="padding: 120px 60px;">
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/Gyms.webp" class="card-img-top" alt="..." height="200">
+          <div class="card-body">
+            <h5 class="card-title">Gym + Cardio</h5>
+            <h6 class="fw-bold">₹ 10,000/-</h6>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/CrossFit.jpeg" class="card-img-top" alt="..." height="200">
+          <div class="card-body">
+            <h5 class="card-title">Gym + Cardio + Crossfit</h5>
+            <h6 class="fw-bold">₹ 15,000/-</h6>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/massage.jpeg" class="card-img-top" alt="..." height="200">
+          <div class="card-body">
+            <h5 class="card-title">Massage + Steam</h5>
+            <h6 class="fw-bold">₹ 5,000/-</h6>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact bg-dark text-white" id="contact">
+    <svg viewBox="0 0 1400 100" class="svg-top">
+      <polygon points="0,0 0,100 700,0 1400,100 1400,0 0,0" style="fill:white">
+    </svg>
+    <div class="contact-container row align-items-center">
+      <div class="col">
+        <img src="img/logo.png" alt="" width="300" class="img-fluid">
+      </div>
+      <div class="col">
+        <h1 class="fw-bolder">Power Fitness</h1>
+        <p class="fst-italic">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos blanditiis autem non
+          voluptatibus voluptatum at cumque repellat rem repudiandae cum, aut pariatur expedita officia quo ex ipsum
+          enim asperiores, neque accusamus accusantium perspiciatis, fugit voluptates illo. Nobis praesentium
+          dignissimos cupiditate, debitis blanditiis quas eveniet!</p>
+        <div class="social-media mb-3 d-flex align-items-center">
+          <p class="mb-1 me-3 fw-bolder fa-2x">Check Out Our Pages:</p>
+          <a href="#" target="_blank" class="social-links me-3"><i class="fab fa-instagram text-dark"></i></a>
+          <a href="#" target="_blank" class="social-links me-3"><i class="fab fa-dribbble text-dark"></i></a>
+          <a href="#" target="_blank" class="social-links"><i class="fab fa-linkedin-in text-dark"></i></a>
+        </div>
+        <div class="d-flex align-items-center"><i class="fab fa-whatsapp fa-2x me-3 mb-3"></i>
+          <h6 class="fst-italic"><a href="#" target="_blank" class="text-decoration-none text-white">+91 987 654
+              3210</a>
+          </h6>
+        </div>
+        <div class="d-flex align-items-center"><i class="fa fa-envelope fa-2x me-3 mb-3"></i>
+          <h6 class="fst-italic"><a href="#" target="_blank"
+              class="text-decoration-none text-white">powerfitness@powfit.com</a></h6>
+        </div>
+        <div class="d-flex align-items-center"><i class="fa fa-map-marked fa-2x me-3 mb-3"></i>
+          <h6 class="fst-italic"><a
+              href="https://www.google.com/maps/place/Mumbai,+Maharashtra/@19.1099443,72.6948326,10.33z/data=!4m5!3m4!1s0x3be7c6306644edc1:0x5da4ed8f8d648c69!8m2!3d19.0759837!4d72.8776559"
+              target="_blank" class="text-decoration-none text-white">Mumbai, Maharashtra, India</a></h6>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="text-center bg-dark text-white py-3 border-top border-light">
+    <div>Copyright &copy; 2021 <strong>Power Fitness</strong>. All Rights Reserved</div>
+  </footer>
+  <!-- Footer -->
+  <!-- Additional JS -->
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/all.min.js"></script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.nav.js"></script>
+</body>
+
+</html>
